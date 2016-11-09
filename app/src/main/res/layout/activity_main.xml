@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a1eee9"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="TIC-TAC-TOE"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:background="#1aa096"
+        android:textColor="#ffffff">
+        </TextView>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button"
+            style="@android:style/Theme.Holo"
+            android:tag="1"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button2"
+            style="@android:style/Theme.Holo"
+            android:tag="2"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button3"
+            style="@android:style/Theme.Holo"
+            android:tag="3"
+            android:onClick="clicked" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button4"
+            style="@android:style/Theme.Holo"
+            android:tag="4"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button5"
+            style="@android:style/Theme.Holo"
+            android:tag="5"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button6"
+            style="@android:style/Theme.Holo"
+            android:tag="6"
+            android:onClick="clicked" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button7"
+            style="@android:style/Theme.Holo"
+            android:tag="7"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button8"
+            style="@android:style/Theme.Holo"
+            android:tag="8"
+            android:onClick="clicked" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/button9"
+            style="@android:style/Theme.Holo"
+            android:tag="9"
+            android:onClick="clicked" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:id="@+id/button10"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#1aa096">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player1"
+            android:id="@+id/textView"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Player2"
+            android:id="@+id/textView2"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:layout_marginStart="100dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="0"
+            android:textSize="40sp"
+            android:layout_marginStart="10dp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="0"
+            android:textSize="40sp"
+            android:layout_marginStart="200dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
